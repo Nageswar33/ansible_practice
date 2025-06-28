@@ -11,9 +11,3 @@
       ansible.builtin.systemd_service:
         state: started
         name:  nginx
-
-    - name: Testing of Roles
-      hosts: all
-      become: true
-      roles: sample
-
