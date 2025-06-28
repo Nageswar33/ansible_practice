@@ -12,9 +12,9 @@
         state: started
         name:  nginx
 
-    - name: Testing of Roles
-      hosts: all
-      become: true
-      roles:
-       - sample
+- name: Testing of Roles
+  hosts: all
+  become: true
+  roles:
+   - sample
 
