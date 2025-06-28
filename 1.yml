@@ -16,5 +16,5 @@
   hosts: all
   become: true
   roles:
-   - sample
+    - sample
 
