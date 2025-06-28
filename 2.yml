@@ -2,7 +2,7 @@
   hosts: all
   become: true
   vars:
-    name1: Nageswara Rao D
+    name1: "Nageswara Rao D"
   tasks:
     - name: Print variable
       ansible.builtin.debug:
