@@ -1,0 +1,9 @@
+- name: Variables Print
+  hosts: all
+  become: true
+  vars:
+    name1: Nageswara Rao D
+  tasks:
+    - name: Print variable
+      ansible.builtin.debug:
+        msg:NAME={{ name1 }}
